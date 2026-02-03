@@ -1,4 +1,7 @@
-**Level 0**
+
+
+
+Level 0
 Objetivo:Encontrar la contraseña del siguiente nivel en el archivo readme.
 
 \*\*Comandos utilizados:\*\*
@@ -26,7 +29,10 @@ ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 
 
-**Level 1**
+
+
+
+Level 1
 Objetivo: Leer el archivo llamado "-" que está en el directorio home.
 
 Comandos utilizados:
@@ -39,7 +45,10 @@ Para leerlo, se usa `./- ` para indicar la ruta relativa.
 Contraseña: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 
-**Level 2**
+
+
+
+Level 2
 Objetivo: Leer un archivo que tiene espacios en su nombre.
 Comandos utilizados:
 ```bash
@@ -51,7 +60,10 @@ se usan comillas o se escapan los espacios con `\`.
 Contraseña:MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 
-**Level 3**
+
+
+
+Level 3
 Objetivo: Encontrar un archivo oculto dentro del directorio inhere.
 Comandos utilizados:
 ```bash
@@ -64,7 +76,10 @@ Se navegó al directorio `inhere` y se usó `ls -la` para mostrar archivos ocult
 El archivo se llamaba `...Hiding-From-You` (con tres puntos al inicio).
 Contraseña: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
-**Level 4**
+
+
+
+Level 4
 Objetivo: Encontrar el único archivo legible por humanos entre varios archivos en el directorio inhere.
    Comandos utilizados:
 ```bash
@@ -79,7 +94,10 @@ Objetivo: Encontrar el único archivo legible por humanos entre varios archivos 
    (texto legible por humanos). Se usó `./` antes del nombre porque empieza con guión.
    Contraseña:4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
-   **Level 5**
+
+
+
+Level 5
    Objetivo: Encontrar un archivo con características específicas: 
    -tamaño 1033 bytes
    -no ejecutable
@@ -96,7 +114,10 @@ Se usó el comando `find` con filtros: `-type f` (archivo regular),
 `-size 1033c` (1033 bytes), `! -executable` (no ejecutable).
 Contraseña: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
-**Level 6**
+
+
+
+Level 6
 Objetivo: Encontrar un archivo en el servidor con propietario bandit7, grupo bandit6 y tamaño 33 bytes.
 Comandos utilizados:
 ```bash
@@ -106,6 +127,19 @@ cat /var/lib/dpkg/info/bandit7.password
 Se buscó en todo el sistema (`/`) con filtros específicos. El `2>/dev/null` redirige los errores de permiso para limpiar la salida.
 
 Contraseña: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+Level 7
+
+Objetivo: Encontrar la contraseña que está al lado de la palabra "millionth" en el archivo data.txt.
+Comandos utilizados:
+```bash
+ls
+grep "millionth" data.txt
+```
+Se buscó en todo el sistema (`/`) con filtros específicos. El `2>/dev/null` redirige los errores de permiso para limpiar la salida.
+Se usó `grep` para buscar la línea que contiene la palabra "millionth" en el archivo data.txt.
+
+Contraseña: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
 
 
