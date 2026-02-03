@@ -52,7 +52,19 @@ Contraseña:MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 
 **Level 3**
+Objetivo: Encontrar un archivo oculto dentro del directorio inhere.
+Comandos utilizados:
+```bash
+   ls
+   cd inhere
+   ls -la
+   cat ...Hiding-From-You
+```
+Se navegó al directorio `inhere` y se usó `ls -la` para mostrar archivos ocultos.
+El archivo se llamaba `...Hiding-From-You` (con tres puntos al inicio).
+Contraseña: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
+**Level 4**
 
 
 
