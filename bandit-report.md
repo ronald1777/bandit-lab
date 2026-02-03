@@ -44,14 +44,15 @@ Objetivo: Leer un archivo que tiene espacios en su nombre.
 Comandos utilizados:
 ```bash
 ls
-cat./ "spaces in this filename"
+cat./ "--spaces in this filename--"
 ```
 Para leer archivos con espacios en el nombre,
 se usan comillas o se escapan los espacios con `\`.
-Contraseña:UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+Contraseña:MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 
 **Level 3**
+
 
 
 
