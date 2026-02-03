@@ -141,7 +141,19 @@ Se usó `grep` para buscar la línea que contiene la palabra "millionth" en el a
 
 Contraseña: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
+Level 8
 
+Objetivo: Encontrar la única línea de texto que aparece solo una vez en el archivo data.txt.
+Comandos utilizados:
+```bash
+ls
+sort data.txt | uniq -u
+```
+Se ordenó el archivo con `sort` y luego se usó `uniq -u`
+para mostrar solo las líneas únicas (que no se repiten).
+
+
+Contraseña: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
 
 
 
