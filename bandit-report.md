@@ -65,6 +65,24 @@ El archivo se llamaba `...Hiding-From-You` (con tres puntos al inicio).
 Contraseña: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 **Level 4**
+Objetivo: Encontrar el único archivo legible por humanos entre varios archivos en el directorio inhere.
+
+```bash
+   ls
+   cd inhere
+   ls
+   file ./-file*
+   cat ./-file07
+```
+   Se usó el comando `file` con wildcard `*` para identificar el tipo de cada archivo, después de intentar leerlos uno a uno.
+   Al finall archivo `-file07` era el único con formato "ASCII text"
+   (texto legible por humanos). Se usó `./` antes del nombre porque empieza con guión.
+   Contraseña:4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+   **Level 5**
+   
+
+
 
 
 
