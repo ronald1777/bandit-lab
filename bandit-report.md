@@ -96,6 +96,16 @@ Se usó el comando `find` con filtros: `-type f` (archivo regular),
 `-size 1033c` (1033 bytes), `! -executable` (no ejecutable).
 Contraseña: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
 
+**Level 6**
+Objetivo: Encontrar un archivo en el servidor con propietario bandit7, grupo bandit6 y tamaño 33 bytes.
+Comandos utilizados:
+```bash
+find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
+cat /var/lib/dpkg/info/bandit7.password
+```
+Se buscó en todo el sistema (`/`) con filtros específicos. El `2>/dev/null` redirige los errores de permiso para limpiar la salida.
+
+Contraseña: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
 
 
 
