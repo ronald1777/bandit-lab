@@ -66,7 +66,7 @@ Contraseña: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
 
 **Level 4**
 Objetivo: Encontrar el único archivo legible por humanos entre varios archivos en el directorio inhere.
-
+   Comandos utilizados:
 ```bash
    ls
    cd inhere
@@ -80,7 +80,23 @@ Objetivo: Encontrar el único archivo legible por humanos entre varios archivos 
    Contraseña:4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
 
    **Level 5**
-   
+   Objetivo: Encontrar un archivo con características específicas: 
+   -tamaño 1033 bytes
+   -no ejecutable
+   -legible por humanos.
+
+   Comandos utilizados:
+```bash
+ls
+cd inhere
+find . -type f -size 1033c ! -executable
+cat ./maybehere07/.file2
+```
+Se usó el comando `find` con filtros: `-type f` (archivo regular),
+`-size 1033c` (1033 bytes), `! -executable` (no ejecutable).
+Contraseña: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+
 
 
 
